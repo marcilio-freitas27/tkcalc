@@ -96,7 +96,9 @@ class Calc:
         self.button = Button(self.widget4, text='0')
         self.button["command"] = self.insert0
         self.button.pack(side=RIGHT)
-
+        
+       
+    # eventos dos botões
     def insert0(self):
         self.tela1["text"] += "0"
     
